@@ -5,7 +5,7 @@
 	deal with.  Also, It centralizes all the jQuery/AppFramework... whatever selectors in one place.
 	
 	USAGE:
-	```
+	```javascript
 	var divMan = DivManager.getInstance();
 	divMan.addSelector('myDivSelector1', '$("#div1").children(".divChild1").children(".divChild2")');
 	divMan.addSelector('myDivSelector2', '$("#div2").children(".divChild1").children(".divChild2")');
