@@ -1,5 +1,5 @@
 # DivManager
-	Div manager stops selectors from being scattered all over your code, making it more readable, cleaner and easier to work with.
+	Div manager is a singleton which stops selectors from being scattered all over your code, making it more readable, cleaner and easier to work with.
 	Another problem DivManager solves is selecting a div that isn't there by testing for it's existance before returning a reference to it. 
 	jQuery and AppFramework return an object with length 0 when they cannot select it.  DivManager will return null, making it easier to 
 	deal with.  Also, It centralizes all the jQuery/AppFramework... whatever selectors in one place.
